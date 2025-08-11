@@ -4,10 +4,8 @@ app = Flask(__name__)
 import os.path
 import sys
 import json
-
-
-
 try:
+    
     import apiai
 except ImportError:
     sys.path.append(
