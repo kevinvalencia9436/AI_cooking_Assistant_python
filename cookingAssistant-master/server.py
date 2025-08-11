@@ -4,7 +4,6 @@ import os
 from flask import Flask
 from flask import request
 import sys
-
 import main
 import os.path
 import json
