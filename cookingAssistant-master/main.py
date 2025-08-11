@@ -26,6 +26,7 @@ def basic():
     # request.session_id = "unique"
     request.query = "Chicken"
     response = request.getresponse()
+    
     #print json.loads(response.read())
     #output = json.loads(response.read())['result']["fulfillment"]["messages"][0]['speech']
     #print json.loads(response.read())['result']['fulfillment']
