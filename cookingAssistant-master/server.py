@@ -18,6 +18,7 @@ except ImportError:
 from logentries import LogentriesHandler
 import logging
 
+
 log = logging.getLogger('logentries')
 log.setLevel(logging.INFO)
 
