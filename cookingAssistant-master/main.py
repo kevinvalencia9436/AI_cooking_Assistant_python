@@ -5,6 +5,8 @@ import os.path
 import sys
 import json
 
+
+
 try:
     import apiai
 except ImportError:
