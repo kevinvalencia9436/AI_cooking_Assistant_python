@@ -14,10 +14,6 @@ except ImportError:
     import apiai
 # CLIENT_ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 client_access_token = '8bd3b6024a8e461f8e4e63c181882295'
-
-
-
-
 #@app.route("/")
 def basic():
     ai = apiai.ApiAI(client_access_token)
