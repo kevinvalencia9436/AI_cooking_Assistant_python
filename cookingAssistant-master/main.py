@@ -31,6 +31,7 @@ def basic():
     #print json.loads(response.read())['result']['fulfillment']
     output = json.loads(response.read())['result']
     output_speech = output["fulfillment"]["speech"]
+    
     intent_name = output["metadata"]["intentName"]
     if (output_speech.rsplit(None,1)[-1] == 'chicken:'):
         ai = apiai.ApiAI("2014eca4faff41eaa164b46c965aaa52")
