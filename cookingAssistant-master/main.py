@@ -30,6 +30,7 @@ def basic():
     #print json.loads(response.read())
     #output = json.loads(response.read())['result']["fulfillment"]["messages"][0]['speech']
     #print json.loads(response.read())['result']['fulfillment']
+    
     output = json.loads(response.read())['result']
     output_speech = output["fulfillment"]["speech"]
     
